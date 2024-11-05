@@ -9,7 +9,7 @@ spec:
   type: NodePort
   ports:
   - port: 8888
-    nodePort: 38888
+    nodePort: 31888
     targetPort: app-port
     protocol: TCP
 ---
